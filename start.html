@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+        <title>blood type</title>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+        <link type="text/css"  rel="stylesheet" href="css/bloodtype.css"/>
+        <link type="text/css"  rel="stylesheet" href="css/jquery-ui.min.css"/>
+    </head>
+    <body>
+    	<div id="main_table">
+    		<table id="avatar_table" cellspacing="0">
+	       		<tr>
+	       			<th>选择</th>
+	       			<th >姓名</th>
+	       			<th data-sort="string">英文名</th>
+	       			<th>性别</th>
+	       			<th data-sort="float">身高</th>
+	       			<th data-sort="float">体重</th>
+	       			<th data-sort="float">BMI</th>
+	       			<th data-sort="string">血型</th>
+	       			<th data-sort="string">身份</th>
+	       			<th>月收入</th>
+	       			<th>学历</th>
+	       			<th>人生价值</th>
+	       			<th style="display:none">描述</th>
+	       			<th style="display:none">图片地址</th>
+	       		</tr>
+	       </table>
+    	</div>
+    	
+    	<div id="act_box">
+    		<div id="avatar_stage">
+		       	<div class="left">
+		       		<img src="img/female/8.jpg" class="at_img"/>
+		       		<p title="人生价值" class="at_point">567</p>
+		       		
+		       	</div>
+		       			
+	   			<div class="right">
+					<table>
+	        			<!--tr>
+	        				<td>编号:</td>
+	        				<td class="at_id"></td>
+	        			</tr-->
+	        			<tr>
+	        				<td>姓名:</td>
+	        				<td class="at_name">XXX</td>
+	        			</tr>
+	        			<tr>
+	        				<td>英文名:</td>
+	        				<td class="at_ename">XXX</td>
+	        			</tr>
+	        			<tr>
+	        				<td>性别:</td>
+	        				<td class="at_sex"></td>
+	        			</tr>
+	        			<tr>
+	        				<td>身高:</td>
+	        				<td class="at_height"></td>
+	        			</tr>
+	        			<tr>
+	        				<td>体重:</td>
+	        				<td class="at_weight"></td>
+	        			</tr>
+	        			<tr>
+	        				<td>BMI:</td>
+	        				<td class="at_bmi"></td>
+	        			</tr>
+	        			<tr>
+	        				<td>血型:</td>
+	        				<td class="at_blood"></td>
+	        			</tr>
+	        			<tr>
+	        				<td>身份:</td>
+	        				<td class="at_job"></td>
+	        			</tr>
+	        			<tr>
+	        				<td>月收入:</td>
+	        				<td class="at_salary"></td>
+	        			</tr>
+	        			<tr>
+	        				<td>学历:</td>
+	        				<td class="at_grade"></td>
+	        			</tr>
+	        		</table>
+	        		
+	        		<div class="at_description">
+	        		</div>
+	   			</div>
+    		</div>
+    		<div id="console">
+    		欢迎来到我的游戏！！ --- 于东猫留
+    		</div>
+    		<div id="status">
+    				<span>平均人生价值：<span id="score"></span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+    				<span>人口：<span id="people"></span>(男：<span id="man"></span> 女：<span id="woman"></span>)</span>
+    		</div>
+			<div id="act_panel">
+				<div class="act_block">
+		    		<button id="random_avatar">随机！</button>
+		    		<button id="marry">结合!</button>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		    		<button><a href="http://yudongmao.sinaapp.com/?p=42" target="_blank">关于！</a></button>
+=======
+>>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
+>>>>>>> master
+		    		<!--button id="fight">战斗!</button-->
+	    		</div>
+		    		<!--div>
+		    			<input type="radio" id="add" name="add_type"/>
+		    			添加
+		    			&nbsp;&nbsp;&nbsp;&nbsp;
+		    			<input type="radio" id="change" name="add_type"/>
+		    			更改
+		    		</div>
+		    		<div id="create_box">
+						姓：<input name="fname" type="text"/>
+						名：<input name="lname" type="text"/>
+						性别：
+						<select name="sex">
+							<option value = "1">男</option>
+							<option value = "0">女</option>
+						</select>
+						血型：
+						血型基因1 
+						<select name="blood1">
+							<option selected="selected" value="i">i</option>
+							<option value="A">A</option>
+							<option value="B">B</option>
+						</select>
+						血型基因2 
+						<select name="blood2">
+							<option selected="selected" value="i">i</option>
+							<option value="A">A</option>
+							<option value="B">B</option>
+						</select>
+						身高：<input name="height" type="text"/>
+						体重：<input name="weight" type="text"/>
+						<button>创建</button>
+					</div-->
+		    	<!--div id="act_marry" class="act_block">
+		    		<h3>结婚</h3>
+		    		<div>
+		    			勾选两个异性结合
+		    		</div>
+		    		<div>
+						<button id="marry_btn">确定!</button>
+		    		</div>
+		    	</div-->
+		    	<div id="act_fight" class="act_block">
+		    		<h3>体力搏斗</h3>
+		    		<div>
+		    			<input type="checkbox" id="fight"/>
+		    			选择若干人进行体力搏斗
+		    		</div>
+		    		
+		    		<div>
+		    			<input id="fight1" type="text"/>
+						<input id="fight2" type="text"/>
+		    			<input id="fight1" type="text"/>
+						<input id="fight2" type="text"/>
+		    			<input id="fight1" type="text"/>
+						<input id="fight2" type="text"/>
+						
+						<button id="fight_btn">搏斗!</button>
+		    		</div>
+		    	</div>
+		    	<!--div id="act_exam" class="act_block">
+		    		<h3>智力竞赛</h3>
+		    		<div>
+		    			<input type="checkbox" id="exam"/>
+		    			组织五个人进行考试
+		    		</div>
+		    		
+		    		<div>
+		    			<select>
+		    				<option>1</option>
+		    				<option>2</option>
+		    				<option>3</option>
+		    			</select>
+		    			<input id="exam1" type="text"/>
+						<input id="exam2" type="text"/>
+		    			<input id="exam3" type="text"/>
+						<input id="exam4" type="text"/>
+						<input id="exam5" type="text"/>
+						
+						<button id="exam_btn">考试!</button>
+		    		</div>
+		    	</div>
+		    	<div id="act_exam" class="act_block">
+		    		<div>
+						<button id="custom_btn">自定义人物</button>
+						<button id="joke_btn">你敢点击吗？</button>
+						<button id="help_btn">帮助</button>
+						<button id="about_btn">关于</button>
+		    		</div>
+		    	</div-->
+    		</div>
+    		
+		    	<!--div id="operate_box">
+		    		
+		    		<button >随机一个（森林里发现）</button>
+		    		<button id="revolution">暴动</button>
+		    		<button id="create">工程师的手册（创造一个）</button>
+		    		<button id="realize">顿悟（随机人属性修改）</button>
+		    		<button id="lighting">闪电袭击</button>
+		    		<button id="morecard">多抽一张牌</button>
+		    		<hr/>
+		    		
+		    		
+		    		
+		    		<button>故事</button>
+		    		<button>关于</button>
+		    	</div-->
+		    	
+    	</div>
+    	
+    		
+    		<!--div>
+    			<button>查看全部牌</button>
+    			<button>重新开始</button>
+    			<button id="create_avatar">创建新角色</button>
+    			<div id="create_box">
+    				姓：<input name="fname" type="text"/>
+    				<hr/>
+    				名：<input name="lname" type="text"/>
+    				<hr/>
+    				性别：
+    				<select name="sex">
+    					<option value = "1">男</option>
+    					<option value = "0">女</option>
+    				</select>
+    				<hr/>
+    				血型：
+    				血型基因1 
+    				<select name="blood1">
+    					<option selected="selected" value="i">i</option>
+    					<option value="A">A</option>
+    					<option value="B">B</option>
+    				</select>
+    				血型基因2 
+    				<select name="blood2">
+    					<option selected="selected" value="i">i</option>
+    					<option value="A">A</option>
+    					<option value="B">B</option>
+    				</select>
+    				<hr/>
+    				身高：<input name="height" type="text"/>
+    				<hr/>
+    				体重：<input name="weight" type="text"/>
+    				<hr/>
+    				<button>创建</button>
+    			</div>
+    			
+    			
+    			
+	        	<button id="random_avatar">随机新角色</button>
+    		</div-->
+    		
+    		<!--div>
+    			<h5>任务列表</h5>
+    			<ul>
+    				<li><input type="checkbox"/> XXXXXXXXXXXXXXXXXXX</li>
+    				<li><input type="checkbox"/> XXXXXXXXXXXXXXXXXXX</li>
+    				<li><input type="checkbox"/> XXXXXXXXXXXXXXXXXXX</li>
+    				<li><input type="checkbox"/> XXXXXXXXXXXXXXXXXXX</li>
+    				<li><input type="checkbox"/> XXXXXXXXXXXXXXXXXXX</li>
+    			</ul>
+    		</div-->
+    	
+    	<!--结婚弹窗-->
+    	<div id="type1" class="dialog">
+    		<div class="close">关闭</div>
+    		<!--div class="placeholder">
+    			<div class="place">
+    				<input type="hidden" value=""/>
+    			</div>
+				<div class="place">
+					<input type="hidden" value=""/>
+				</div>
+    		</div-->
+    		<h2>请输入两个异性的身份证编号</h2>
+			<input id="marry1" type="text"/>
+			<input id="marry2" type="text"/>
+			
+			<button id="marry_btn">Marry!</button>
+		</div>
+       
+        
+        <script type='text/javascript' src="./js/jquery-1.9.1.js"></script>
+        <script type='text/javascript' src="./js/jquery.sortElements.js"></script>
+        <script type='text/javascript' src="./js/bloodtype-functions.js"></script>
+        <script type='text/javascript' src="./js/bloodtype-data.js"></script>
+        <script type='text/javascript' src='./js/bloodtype-core.js'></script>
+        <script type='text/javascript' src='./js/bloodtype-event.js'></script>
+        
+        
+<<<<<<< HEAD
+=======
+        
+    </head>
+    <body>
+    	<div id="active_box">
+    		<input type="text" id="name1"/>
+    		<input type="text" id="name2"/>
+    		
+    		<button id="marry">marry!</button>
+    	</div>
+    	<br/>
+        <div id="avatar_box">
+        	<div class="avatar_template" style="display:none">
+        		<img src="img/male/1.jpg" class="at_img"/>
+        		<table>
+        			<tr>
+        				<td>Name:</td>
+        				<td class="at_name">James</td>
+        			</tr>
+        			<tr>
+        				<td>Sex:</td>
+        				<td class="at_sex">M</td>
+        			</tr>
+        			<tr>
+        				<td>Height:</td>
+        				<td class="at_height">172cm</td>
+        			</tr>
+        			<tr>
+        				<td>Bloodtype:</td>
+        				<td class="at_blood">A</td>
+        			</tr>
+        			<tr>
+        				<td>ID:</td>
+        				<td class="at_id">A</td>
+        			</tr>
+        		</table>
+        	</div>
+        </div>
+        
+        <script type='text/javascript' src="./js/jquery.js"></script>
+        <script type='text/javascript' src="./js/help.js"></script>
+        <script type='text/javascript' src='js/bloodtype.js'></script>
+>>>>>>> firstcommit
+=======
+>>>>>>> master
+    </body>
+</html>

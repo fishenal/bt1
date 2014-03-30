@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+	width:100%;
+	font-size:14px;
+}
+#main_table{
+	width:70%;
+	float:left;
+	height:70%;
+	overflow-y:auto;
+}
+#act_box{
+	height:100%;
+	width:30%;
+	float:left;
+	background:#eee;
+}
+#avatar_table{
+	width:100%;
+}
+#avatar_table td,
+#avatar_table th{
+	border:1px solid #ddd;
+	padding:5px;
+	cursor:pointer;
+}
+#avatar_table tr.chosen{
+	background:#DDDDDD;
+}
+#avatar_table tr.schosen{
+	background:#99CCCC;
+}
+#console{
+	background:#000000;
+	color:white;
+	height:20px;
+	line-height:20px;
+	width:100%;
+	padding:5px 15px;
+}
+#status{
+	background:#FF0000;
+	color:white;
+	width:100%;
+	padding:5px 15px;
+	line-height:20px;
+}
+#avatar_stage{
+	overflow:hidden;
+	height:300px;
+}
+#avatar_stage .left{
+	float:left;
+	padding:5%;
+	width:30%;
+}
+#avatar_stage .left img{
+	width:100%;
+}
+#avatar_stage .left .at_point{
+	font-size:26px;
+	color:#FF0000;
+	font-weight:bold;
+	width:100%;
+	text-align:center;
+	line-height:2;
+}
+#avatar_stage .right{
+	float:right;
+	width:50%;
+	padding:5%;
+}
+.act_block{
+	padding:15px 10px;
+	border-top:1px solid #ddd;
+}
+.act_block h3{
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+/*
+#avatar_box{
+	width:800px;
+	height:800px;
+	background:#009966;
+}
+*/
+.avatar_dom{
+	float:left;
+	border:1px solid #ddd;
+	width:200px;
+	padding:15px;
+	text-align:center;
+	margin:15px;
+	line-height:1.2;
+	background:white;
+	z-index:9;
+}
+.avatar_dom img{
+	width:50px;
+	height:50px;
+}
+
+
+.dialog{
+	position:absolute;
+	width:450px;
+	height:500px;
+	padding:15px;
+	background:#0099FF;
+	display:none;
+}
+.placeholder{
+	overflow:hidden;
+	width:450px;
+	margin:0 auto;
+}
+.placeholder .place{
+	width:200px;
+	height:300px;
+	border:2px solid #eee;
+	margin:0 10px;
+	float:left;
+}
+.placeholder .place.highlight{
+	background:red;
+}
+
+#act_marry,#act_fight{
+	display:none;
+}
+#act_panel button{
+<<<<<<< HEAD
+	width:150px;
+=======
+<<<<<<< HEAD
+	width:110px;
+=======
+	width:150px;
+>>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
+>>>>>>> master
+	height:35px;
+	cursor:pointer;
+}
