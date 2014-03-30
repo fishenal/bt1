@@ -121,31 +121,9 @@ function ShowStage(){
 
 $('#avatar_table').on("click",'tr',ShowStage);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 for(var i = 0;i<11;i++){
 	findOne();
 }
-=======
->>>>>>> master
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-findOne();
-
-<<<<<<< HEAD
-=======
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 var table = $("#avatar_table");
     
 $('#avatar_table th')

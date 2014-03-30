@@ -107,14 +107,8 @@ function Avatar(cs){
 	
 	//职业匹配指数
 	var jobfixindex = 0;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 	
 	/*
-=======
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 	var reJobFixIndex = function(){
 		jobfixindex = 0;
 		var jobreg = [new RegExp(blood1),new RegExp(blood2),new RegExp(sex)]
@@ -125,16 +119,8 @@ function Avatar(cs){
 			}
 		}
 	}
-<<<<<<< HEAD
-	
-=======
-<<<<<<< HEAD
 	*/
 	//reJobFixIndex();
-=======
-	
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 	
 	var job = (typeof cs.job !== "undefined") ? cs.job : randomjob.job;
 	
@@ -179,15 +165,7 @@ function Avatar(cs){
 	}
 	
 	var countJobFit = function(){
-<<<<<<< HEAD
-		reJobFixIndex();
-=======
-<<<<<<< HEAD
 		//reJobFixIndex();
-=======
-		reJobFixIndex();
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 		switch(jobfixindex){
 			case 1 : point += 100;break;
 			case 2 : point += 180;break;
@@ -208,15 +186,7 @@ function Avatar(cs){
 		point = Math.floor(point);
 	}
 	
-<<<<<<< HEAD
-	//countPoint();
-=======
-<<<<<<< HEAD
 	countPoint();
-=======
-	//countPoint();
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 	
 	//var dom = $('<div class="avatar_dom"></div>');
 	var dom = $('<tr></tr>');
@@ -239,15 +209,7 @@ function Avatar(cs){
 	//展现人物的方法，放到pool里面
 	this.Generate = function(){
 		//计算分数
-<<<<<<< HEAD
-		countPoint();
-=======
-<<<<<<< HEAD
 		//countPoint();
-=======
-		countPoint();
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 		
 		dom.append($('<td><input type="checkbox" class="avatar_choose" value="'+Avatar.index+'"></td>'));
 		dom.append($('<td>'+name+'</td>'));
@@ -271,14 +233,6 @@ function Avatar(cs){
 			$('#avatar_table').append(dom);
 		}
 		this.generated = true;
-<<<<<<< HEAD
-		
-=======
-<<<<<<< HEAD
-=======
-		
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 		dom.click();
 		Avatar.updateData();
 	}

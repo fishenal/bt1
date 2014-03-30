@@ -181,15 +181,7 @@ body{
 	display:none;
 }
 #act_panel button{
-<<<<<<< HEAD
-	width:150px;
-=======
-<<<<<<< HEAD
 	width:110px;
-=======
-	width:150px;
->>>>>>> 40366b2cb0031ffd639da574b67f0de03a75b984
->>>>>>> master
 	height:35px;
 	cursor:pointer;
 }
